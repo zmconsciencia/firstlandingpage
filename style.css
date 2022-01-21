@@ -1,8 +1,10 @@
 body {
     font-family: 'Roboto';
-    margin: -50px;
+    
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 .header {
     background-color: #1F2937;
@@ -19,9 +21,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     margin: 50px;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 a {
@@ -63,18 +66,18 @@ ul {
 }
 
 .avatar {
-    width: 500px;
+    max-width: 500px;
     height: auto;
 }
 
 .title-info{
-    width: 600px;
+    max-width: 600px;
 }
 
 .image-container {
     display: flex;
     justify-content: right;
-    width: 600px;
+    max-width: 600px;
 }
 
 .abilities{
@@ -92,6 +95,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 .abis {
     width: 290px;
@@ -116,7 +120,7 @@ ul {
     justify-content: center;
 }
 .quote {
-    width: 1200px;
+    max-width: 1200px;
     padding: 94px;
     display: flex;
     flex-direction: column;
@@ -159,7 +163,7 @@ a.more {
 .rift-info{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    max-width: 600px;
     padding: 50px;
 }
 .rift-title{
